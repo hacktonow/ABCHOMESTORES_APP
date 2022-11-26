@@ -1,5 +1,5 @@
 import 'package:emart_app/views/splash_screen/splash_screen.dart';
-import 'package:flutter/material.dart';
+import 'package:get/get_navigation/get_navigation.dart';
 import 'consts/consts.dart';
 
 void main() {
@@ -11,7 +11,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    // we are using getx so we change materialap into getmaterialap
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: appname,
       theme: ThemeData(
