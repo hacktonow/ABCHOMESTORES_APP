@@ -32,6 +32,7 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
           ),
+          10.heightBox,
           Expanded(
             child: SingleChildScrollView(
               physics: const BouncingScrollPhysics(),
@@ -177,7 +178,7 @@ class HomeScreen extends StatelessWidget {
                                             .color(redColor)
                                             .fontFamily(bold)
                                             .size(16)
-                                            .make()
+                                            .make(),
                                       ],
                                     )
                                         .box
@@ -188,7 +189,7 @@ class HomeScreen extends StatelessWidget {
                                         .padding(const EdgeInsets.all(8))
                                         .make()),
                           ),
-                        )
+                        ),
                       ],
                     ),
                   ),
