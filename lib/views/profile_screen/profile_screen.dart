@@ -74,12 +74,12 @@ class ProfileScreen extends StatelessWidget {
 
           //buttons section
 
-          20.heightBox,
+          10.heightBox,
           ListView.separated(
             shrinkWrap: true,
             separatorBuilder: ((context, index) {
               return const Divider(
-                color: lightGrey,
+                color: darkFontGrey,
               );
             }),
             itemCount: profileButtonsList.length,

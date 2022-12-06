@@ -3,7 +3,7 @@ import 'package:emart_app/consts/consts.dart';
 Widget ourButton({color, textColor, String? title, onPress}) {
   return ElevatedButton(
       style: ElevatedButton.styleFrom(
-        primary: color,
+        backgroundColor: color,
         padding: const EdgeInsets.all(12),
       ),
       onPressed: onPress,
